@@ -149,6 +149,9 @@ h3{
   display: inline-block;
   min-width:  685px;
 }
+.news__item:last-child{
+  margin-bottom: 60px;
+}
 .news__date{
   opacity: .7;
   font-family: "Roboto Light";
@@ -239,10 +242,9 @@ h3{
 }
 .pagination{
   text-align: center;
-  margin-top: 60px;
+  margin-bottom: 75px;
 }
 .pagination__display{
-  margin-right: 20px;
   display: inline-block;
   vertical-align: middle;
   font-family: "Roboto Light";
@@ -258,10 +260,16 @@ h3{
   font-family:"Roboto";
   font-weight: bold;
   font-size: 14px;
-
+  margin-left: 20px;
 }
-.pagination__pagexs-list{
-  display: inline-block;
+.pagination__pages-item:first-child{
+ margin-left: 0;
+}
+.pagination__prev{
+  margin-left: 20px;
+}
+.pagination__next{
+  margin-left: 20px;
 }
 .pagination__prev, .pagination__next{
   display: inline-block;
@@ -286,7 +294,6 @@ h3{
   padding:0;
 }
 .pagination__pages-link{
-  margin-right: 20px;
   text-decoration: none;
   color:#221f1f;
 }
@@ -299,16 +306,17 @@ h3{
 }
 .footer{
   min-height: 77px;
-  margin-top: 75px;
 }
 .information{
+  font-family: "Gotham Pro light";
+  font-size: 14px;
   position: absolute;
   left: 19px;
   top: 12px;
   display: inline-block;
-  font-weight: 300;
 }
 .information>a{
+
   color:#fff;
   font-weight: bold;
 }
@@ -316,7 +324,7 @@ h3{
   font-weight: bold;
 }
 .social{
-  text-align: right;
+  text-align: left;
   position: absolute;
   right: 22px;
   top:18px;
@@ -331,20 +339,27 @@ h3{
   right: 502px;
   position: absolute;
 }
+.social__title{
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 6px;
+
+}
 .social__item{
   text-align: center;
-  margin-right: 10px;
+  margin-left: 10px;
   display: inline-block;
   background-color: #d4d4d8;
   min-height: 20px;
   min-width: 20px;
   border-radius: 50px;
 }
+.social__item:first-child{
+  margin-left: 0px;
+}
 .social__item:hover{
   background-color: #cc3366;
-}
-.social__list{
-  margin-top:6px;
 }
 .social__url{
   position: absolute;
