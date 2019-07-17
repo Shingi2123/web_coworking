@@ -1,6 +1,5 @@
 body{
   margin: 0;
-  font: 14px/1.42 "Gotham Pro" ;
   -webkit-font-smoothing:antialiased;
 }
 h3{
@@ -35,6 +34,7 @@ h3{
   font-style: normal;
 }
 .contact_information__phone{
+  font-family: "Gotham Pro";
   font-size:21px;
   font-weight: bold;
 }
@@ -47,6 +47,9 @@ h3{
 }
 .contact_information__schedule_work>a:hover{
   color:#ec1e79;
+}
+.dream_preview{
+  padding-top: 77px;
 }
 .page, .sidebar{
   display: inline-block;
