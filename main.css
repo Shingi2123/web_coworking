@@ -31,29 +31,29 @@ h3{
   top:13px;
   left:19px;
 }
-.contact_information{
+.contact-information{
   position: absolute;
   right: 21px;
   top:22px;
   text-align: right;
   font-style: normal;
 }
-.contact_information__phone{
+.contact-information__phone{
   font-family: "Gotham Pro";
   font-size:21px;
   font-weight: bold;
 }
-.contact_information__schedule_work{
+.contact-information__schedule-work{
   font-family:"Open Sans";
   font-size: 14px;
 }
-.contact_information__schedule_work>a{
+.contact-information__schedule-work>a{
   color:#fff;
 }
-.contact_information__schedule_work>a:hover{
+.contact-information__schedule-work>a:hover{
   color:#ec1e79;
 }
-.dream_preview{
+.dream-preview{
   padding-top: 77px;
 }
 .page, .sidebar{
@@ -66,7 +66,7 @@ h3{
 .sidebar{
   width: 200px;
 }
-.dream__preview{
+.dream-preview{
   max-width: 100%;
 }
 .title{
@@ -188,7 +188,7 @@ h3{
   font-size: 12px;
   letter-spacing: 2.4px;
   text-decoration: none;
-  color: #000000;
+  color: #ec1e79;
   transition-duration: 1.0s color;
 }
 .menu__list{
@@ -231,7 +231,8 @@ h3{
   background-image: url(img/icon_wallet.png);
 }
 .menu__text:hover{
-  color: #ec1e79;
+  text-decoration: underline;
+  color: #000000;
   transition-duration: .5s;
 }
 .menu__item{
@@ -312,7 +313,7 @@ h3{
   font-size: 14px;
   position: absolute;
   left: 19px;
-  top: 12px;
+  top: 15px;
   display: inline-block;
 }
 .information>a{
