@@ -74,7 +74,9 @@ h3{
   color:#ec1e79;
 }
 .dream-preview{
-  padding-top: 77px;
+  text-align: center;
+  background-color: #27273e;
+  margin-bottom: 67px;
 }
 .page, .sidebar{
   display: inline-block;
@@ -90,6 +92,7 @@ h3{
   max-width: 100%;
 }
 .title{
+  line-height: 38px;
   color:#221f1f;
   font-family: "Gotham Pro", sans-serif;
   font-weight: bold;
@@ -104,33 +107,35 @@ h3{
   margin-bottom: 18px;
 }
 .features{
-  padding-top: 67px;
   margin-bottom: 67px;
 }
  .features__list{
   color:#221f1f;
   list-style: none; 
+  padding-left: 24px;
 }
 .features__item{
   text-align: center;
-  margin-left: 70px;
+  margin-right: 70px;
   display: inline-block;
-}
-.features__item:first-child{
-  margin-left: 24px;
 }
 .features__picture{
-  background-color: #27273e;
-  display: inline-block;
-  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
-  padding: 10%; 
+  background-color: #27273e;
+  left:50%;
+  top:0%;
+  transform: translate(-50%, -0%);
   margin-bottom: 35px;
 }
 .features__picture__icon{
-  display: block;
-  color: #fff;
-  background-position: center;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .features__description__text{
   font-family: "Gotham Pro", sans-serif;
@@ -138,7 +143,6 @@ h3{
   line-height: 30px;
   text-align: center;
   padding: 0px;
-  margin-bottom: 18px;
 }
 .features__description__subtitle{
   font-family: "Gotham Pro", sans-serif;
@@ -169,13 +173,19 @@ h3{
   border-radius: 50%;
   display: inline-block;
   width: 160px;
+  margin-right: 21px;
 }
 .news__item{
   display: inline-block;
   min-width:  685px;
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 24px;
+  width: inherit;
+  margin-bottom: 30px;
 }
 .news__item:last-child{
   margin-bottom: 60px;
+  border:none; 
 }
 .news__date{
   opacity: .7;
@@ -188,7 +198,6 @@ h3{
 .news__desc{
   min-width: 400px;
   display: inline-block;
-  margin-left: 21px;
 }
 .news__text{
   font-family: "Roboto";
@@ -219,11 +228,10 @@ h3{
   transition-duration: 1.0s color;
 }
 .menu__list{
-  margin-top: 80px;
-  margin-left: 20px;
-  padding-left: 0px;
+  padding-left: 20px;
   list-style: none;
 }
+
 .menu__text:before{
   content: "";
   display: inline-block;
@@ -262,6 +270,19 @@ h3{
   color: #000000;
   transition-duration: .5s;
 }
+.menu__text--active{
+  text-decoration: underline;
+  color: #000;
+}
+.menu__text--icon--triangle--active:before{
+  background-image: url(img/icon_triangle-hover.png);
+}
+.menu__text--icon--star--active:before{
+  background-image: url(img/feed_icon-hover.png);
+}
+.menu__text--icon--wallet--active:before{
+  background-image: url(img/icon_wallet-hover.png);
+}
 .menu__item{
   margin-bottom: 30px;
 }
@@ -279,6 +300,7 @@ h3{
   font-weight: 300;
   font-size: 14px;
   color:#656464;
+  margin-right: 20px;
 
 }
 .pagination__controlls{
@@ -289,16 +311,16 @@ h3{
   font-family:"Roboto";
   font-weight: bold;
   font-size: 14px;
-  margin-left: 20px;
+  margin-right: 20px;
 }
-.pagination__pages-item:first-child{
- margin-left: 0;
+.pagination__pages-item:last-child{
+ margin-right: 0px;
 }
 .pagination__prev{
-  margin-left: 20px;
+  margin-right  : 20px;
 }
 .pagination__next{
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .pagination__prev, .pagination__next{
   display: inline-block;
@@ -317,10 +339,6 @@ h3{
   font-weight: bold;
   color:#221f1f;
   opacity: 1;
-}
-.pagination__pagexs-list{
-  margin-left:18px;
-  padding:0;
 }
 .pagination__pages-link{
   text-decoration: none;
@@ -354,11 +372,17 @@ h3{
   font-weight: bold;
 }
 .social{
-  text-align: left;
   position: absolute;
   right: 22px;
   top:18px;
+  text-align: left;
   font-weight: bold;
+}
+.social_icon{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 .social__item{
   position: relative;
@@ -377,30 +401,14 @@ h3{
 
 }
 .social__item{
-  text-align: center;
-  margin-left: 10px;
   display: inline-block;
-  background-color: #d4d4d8;
+  position: relative;
   min-height: 20px;
   min-width: 20px;
-  border-radius: 50px;
+  border-radius: 50%;
+  background-color: #d4d4d8;
+  margin-right: 10px;
 }
-.social__item:first-child{
-  margin-left: 0px;
-}
-.social__item:hover{
-  background-color: #cc3366;
-}
-.social__url{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.news__line {
-  border: 0px;
-  margin-top: 24px;
-  height: 2px;
-  background-color: #f5f5f5;
-  margin-bottom: 30px;
+.social__item:last-child{
+  margin-right: 0px;
 }
