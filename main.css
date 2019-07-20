@@ -370,7 +370,7 @@ h3{
   position: absolute;
 }
 .social__title{
-  font-family: "Gotham Pro, sans-serif";
+  font-family: "Gotham Pro", sans-serif;
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 6px;
