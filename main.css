@@ -412,3 +412,6 @@ h3{
 .social__item:last-child{
   margin-right: 0px;
 }
+.social__item:hover{
+  background-color: #ec1e79;
+}
