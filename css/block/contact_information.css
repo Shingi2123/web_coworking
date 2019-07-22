@@ -1,0 +1,23 @@
+.contact-information{
+    position: absolute;
+    right: 21px;
+    top: 22px;
+    text-align: right;
+    font-style: normal;
+  }
+  .contact-information__phone{
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .contact-information__schedule-work{
+    font-family:"Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .contact-information__schedule-work>a{
+    color:#fff;
+  }
+  .contact-information__schedule-work>a:hover{
+    color:#ec1e79;
+  }

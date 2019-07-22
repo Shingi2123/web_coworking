@@ -1,0 +1,16 @@
+.footer{
+    min-height: 77px;
+  }
+.footer{
+    background-color: #27273e;
+    color: #fff;
+  }
+.footer__logo{
+    display: inline-block;
+    text-align: center;
+}
+.logo_two{
+    top:12px;
+    right: 502px;
+    position: absolute;
+  }
