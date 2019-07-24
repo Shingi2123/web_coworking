@@ -1,7 +1,10 @@
 .contact-information{
-    position: absolute;
+    /* position: absolute;
     right: 21px;
-    top: 22px;
+    top: 22px; */
+    margin-right: 21px;
+    margin-top: 22px;
+   
     text-align: right;
     font-style: normal;
   }

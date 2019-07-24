@@ -1,4 +1,7 @@
-.header, .footer{
+.header{
     background-color: #27273e;
     color: #fff;
+  }
+  .header>.container{
+    justify-content: space-between;
   }

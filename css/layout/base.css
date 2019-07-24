@@ -16,12 +16,13 @@
     margin: 0 auto;
   }
   .container{
-    position: relative;
+    display:flex;
+    flex-direction: row;
     min-height: 77px;
   }
   .page{
-    display: inline-block;
-    vertical-align: top;
+    /* display: inline-block; */
+    /* vertical-align: top; */
     width: 890px;
   }
   h3{

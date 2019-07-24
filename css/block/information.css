@@ -2,10 +2,10 @@
     font-family: "Gotham Pro", sans-serif;
     font-weight: 300;
     font-size: 14px;
-    position: absolute;
-    left: 19px;
-    top: 15px;
-    display: inline-block;
+    /* position: absolute; */
+    margin-left: 19px;
+    margin-top: 15px;
+    /* display: inline-block; */
   }
   .information>a{
   

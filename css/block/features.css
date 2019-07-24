@@ -5,11 +5,12 @@
     color:#221f1f;
     list-style: none; 
     padding-left: 24px;
+    display: flex;
+    flex-direction: row;
   }
   .features__item{
     text-align: center;
     margin-right: 70px;
-    display: inline-block;
   }
   .features__item:last-child{
     margin-right: 0;
