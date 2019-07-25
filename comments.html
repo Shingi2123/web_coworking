@@ -10,7 +10,7 @@
 <body>
 	<div class="wrapper">
 		<!-- Начало хэдера -->
-		<header class="header">
+		<header class="header reviews">
 
 		<div class="container">
 
@@ -69,7 +69,7 @@
 							</li>
 
 							<li class="reviews__item">
-							<img src="img/logo-fig-ava.png" alt="elena_surgai" class="reviews__picture">
+							<div class="reviews__item__background">	<img src="img/logo-fig-ava.png" alt="elena_surgai" class="reviews__picture"> </div>
 							<div class="reviews__desc">
 								<div class="reviews__date">22.12.2015</div>
 								<h3 class="reviews__subtitle">Елена Сургай</h3>
@@ -82,7 +82,7 @@
 									<div class="reviews__desc">
 										<div class="reviews__date">14.08.2015</div>
 										<h3 class="reviews__subtitle">Наталья Осадчая</h3>
-										<p class="reviews__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)</p>
+										<p class="reviews__text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно,<br> что при необходимости все под рукой – и ксерокс, и принтер и магазин<br> канцелярии. Заключаю здесь свои лучшие договора. Единственное<br> пожелание – сделайте еще несколько переговорных комнат на 10-15<br> человек, а то они пользуются большим спросом и не всегда есть<br> возможность забронировать.</p>
 									</div>
 									</li>
 
@@ -90,7 +90,7 @@
 					</div>
 
 				<!-- Лента новостей конец -->
-					<div class="pagination">
+					<div class="pagination comments">
              			<div class="pagination__display">Страница 1 из 7</div>
 
               			<div class="pagination__controlls">
@@ -115,17 +115,50 @@
                 			</ul>
                 
                 			<a href="#" class="pagination__next">></a>
-						  </div>	 
-						  
-					<span class="sale">Для наших новых клиентов мы предлагаем скидку 50% на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</span>
-
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
 
-		<div class="reviews-blank">
-			<h3 class="reviews-blank__title title">Оставить отзыв</h3>
-		</div>
+		<section class="offer">
+			<p class="offer__text">Для наших новых клиентов мы предлагаем <span class="offer__text__discount">скидку 50%</span> на первый<br>день! Приходите, чтобы лично оценить преимущества коворкинга<br>«Воркадиум»!</p>
+		</section>
+		
+		<section class="form-section">
+			<div class="form">
+				<h3 class="form__title title">Оставить отзыв</h3>
+				<form action="" class="form__elem">
+					<div class="form__row">
+						<label class="form__block">
+							<div class="form__block-title">Ваше имя</div>
+							<input placeholder="Андрей" type="text" name="" id="" class="form__input">
+						</label>
+						<label class="form__block">
+							<div class="form__block-title">Ссылка на профиль Vk</div>
+							<input placeholder="vk.com/example" type="text" name="" id="" class="form__input">
+						</label>
+					</div>
+
+					<div class="form__row">
+						<label class="form__block">
+							<div class="form__block-title">Ваше имя</div>
+							<textarea placeholder="Мне понравилось" name="" class="form__input form__input--textarea"></textarea>
+						</label>
+					</div>
+
+					<div class="form__row">
+						<div class="form__question">
+
+						</div>
+						<div class="form__buttons">
+							<button type="submit" class="form__btn">Отправить</button>
+						</div>
+					</div>
+						
+				</form>
+			</div>
+		</section>
 
 		<!-- Футер сайта начало-->
 		<footer class="footer">

@@ -1,0 +1,59 @@
+.form{
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    color: #221f1f;
+    margin: 0 auto;
+    width: 700px;
+    min-height: 427px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding: 51px 5%;
+}
+.form__title{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.form__row{
+    display: flex;
+    margin-bottom: 21px;
+}
+.form__block{
+    margin-right: 23px;
+    flex:1;
+}
+.form__block:last-child{
+    margin-right: 0;
+}
+.form__block-title{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.form__input{
+    width: 100%;
+    padding: 16px 9px;
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid transparent; 
+}
+.form__input:focus{
+    border-color: #ec1e79; 
+}
+.form__input--textarea{
+    resize: vertical;
+    height: 90px;
+}
+.form__btn{
+    padding: 17px 21px;
+    font-size: 12px;
+    color:#fff;
+    background-color: #27273e;
+    border:none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.form__row:last-child{
+    justify-content: flex-end;
+}

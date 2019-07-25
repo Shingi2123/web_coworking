@@ -5,6 +5,10 @@
     align-items: center;
     margin-bottom: 75px;
   }
+  .pagination.comments{
+    margin-bottom: 57px;
+    margin-left: -115px;
+  }
   .pagination__display{
     vertical-align: middle;
     font-family: "Roboto";
@@ -63,4 +67,3 @@
     color:#fff;
     border-radius: 4px;
   }
-  
