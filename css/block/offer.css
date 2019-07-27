@@ -3,7 +3,7 @@
     min-height: 174px;
     background-color:#27273e;
     background-image: url("../../img/pattern.png");
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: center;
 
     font-family: "Gotham Pro";

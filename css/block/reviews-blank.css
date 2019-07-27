@@ -46,8 +46,9 @@
     height: 90px;
 }
 .form__btn{
-    padding: 17px 21px;
+    padding: 19px 22px 17px 21px;
     font-size: 12px;
+    letter-spacing: 2.4px;
     color:#fff;
     background-color: #27273e;
     border:none;
@@ -55,5 +56,41 @@
     font-weight: bold;
 }
 .form__row:last-child{
-    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+    flex-direction: row;
+}
+input[type="radio"] {
+    display: none;
+}
+.form__block__radio-custom::before{
+    vertical-align: middle;
+    display: inline-flex;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to bottom, #ffffff, #ededed);
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.form__block--radio{
+    display: inline-flex;
+    align-items: center;
+}
+.form__input--radio:checked + .form__block__radio-custom::before{
+    justify-content: center;
+    align-items: center; 
+    content: "•";
+    color: #ec1e79;
+    font-size: 34px;
+    border: 1px solid #ec1e79;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.form__input--radio:checked ~ .form__block__text{
+    color:#ec1e79;
 }

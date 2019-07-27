@@ -42,12 +42,23 @@
 					</nav>
 				</aside>
 				<!-- Конец сайдбара -->
-
+				<!-- Начало блока page -->
 				<div class="page">
-
-					<!-- Лента отзывов -->
+					<!-- Хлебные крошки начало -->
+					<nav class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="index.html" class="breadcrumbs__link">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link breadcrumbs__link--unactive">Отзывы</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- Хлебные крошки конец -->
 					<div class="reviews">
 						<h3 class="reviews__title title">Отзывы</h3>
+
 						<ul class="reviews__list">
 
 							<li class="reviews__item">
@@ -60,16 +71,16 @@
 							</li>
 
 							<li class="reviews__item">
-							<img src="img/reviews_2.png" alt="ernest izil" class="reviews__picture">
-							<div class="reviews__desc">
-								<div class="reviews__date">01.02.2016</div>
-								<h3 class="reviews__subtitle">Эрнест Изиль</h3>
-								<p class="reviews__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
-							</div>
+								<img src="img/reviews_2.png" alt="ernest izil" class="reviews__picture">
+								<div class="reviews__desc">
+									<div class="reviews__date">01.02.2016</div>
+									<h3 class="reviews__subtitle">Эрнест Изиль</h3>
+									<p class="reviews__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
+								</div>
 							</li>
 
-							<li class="reviews__item">
-							<div class="reviews__item__background">	<img src="img/logo-fig-ava.png" alt="elena_surgai" class="reviews__picture"> </div>
+							<li class="reviews__item reviews__item__no_ava">
+									<div class="reviews__picture__no-ava reviews__picture"></div>
 							<div class="reviews__desc">
 								<div class="reviews__date">22.12.2015</div>
 								<h3 class="reviews__subtitle">Елена Сургай</h3>
@@ -136,23 +147,36 @@
 						</label>
 						<label class="form__block">
 							<div class="form__block-title">Ссылка на профиль Vk</div>
-							<input placeholder="vk.com/example" type="text" name="" id="" class="form__input">
+							<input placeholder="vk.com/example" type="text" class="form__input">
 						</label>
 					</div>
 
 					<div class="form__row">
 						<label class="form__block">
 							<div class="form__block-title">Ваше имя</div>
-							<textarea placeholder="Мне понравилось" name="" class="form__input form__input--textarea"></textarea>
+							<textarea placeholder="Мне понравилось" class="form__input form__input--textarea"></textarea>
 						</label>
 					</div>
 
 					<div class="form__row">
-						<div class="form__question">
+						<div class="form__block">
+
+							<div class="form__block-title">Отображать фото в отзыве?</div>
+							<label class="form__block form__block--radio">
+								<input type="radio" name="yes-no" class="form__input form__input--radio">
+								<span class="form__block__radio-custom"></span>
+								<span class="form__block__text">Да</span>
+							</label>
+
+							<label class="form__block form__block--radio">
+									<input type="radio" name="yes-no" class="form__input form__input--radio">
+									<span class="form__block__radio-custom"></span>
+									<span class="form__block__text">Нет</span>
+							</label>
 
 						</div>
 						<div class="form__buttons">
-							<button type="submit" class="form__btn">Отправить</button>
+							<button type="submit" class="form__btn">ОТПРАВИТЬ</button>
 						</div>
 					</div>
 						

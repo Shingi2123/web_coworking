@@ -53,3 +53,23 @@
     line-height: 30px;
     color:#221f1f;
   }
+.reviews__background{
+  background-color:red; 
+  background-image: url("../../img/logo-fig-ava.png");
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.reviews__item__no_ava{
+  display: inline-flex;
+}
+.reviews__picture__no-ava::before{
+  display: inline-flex;
+  content: "";
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  background-image: url("../../img/logo-fig-ava.png") ;
+  background-repeat: no-repeat;
+  background-position: center;
+}
