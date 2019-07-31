@@ -1,3 +1,6 @@
+.reviews{
+  margin-bottom: 45px;
+}
 .reviews__list{
     list-style: none;
     display: flex;
@@ -5,7 +8,6 @@
   }
   .reviews__picture{
     border-radius: 50%;
-    /* display: inline-block; */
     width: 160px;
     margin-right: 21px;
   }
@@ -19,7 +21,8 @@
     margin-bottom: 30px;
   }
   .reviews__item:last-child{
-    margin-bottom: 60px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     border:none; 
   }
   .reviews__date{

@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     list-style: none;
-    margin-bottom: 93px;
 }
 .partners__item{
     width: 33.333%; 
@@ -24,4 +23,7 @@
 .partners__item:last-child{
     display: flex;
     padding-left: 40px;
+}
+.partners{
+    margin-bottom: 93px;
 }
