@@ -9,7 +9,7 @@
 <body>
 	<div class="wrapper">
 		<!-- Начало хэдера -->
-		<header class="header">
+		<header class="header header-price">
 
 		<div class="container">
 
@@ -26,12 +26,7 @@
 
 		</header>
 		<!-- Конец хэдера -->
-
 		<div class="maincontent">
-			<div class="dream-preview">
-					<img src="img/Banner.png" alt="picture_your_dream" class="dream-preview__picture">
-			</div>
-			
 			<div class="container">
 				<!-- Начало сайдбара -->
 				<aside class="sidebar">
@@ -46,135 +41,91 @@
 				<!-- Конец сайдбара -->
 
 				<div class="page">
-					
-					<!-- Секция Особенностей начало -->
-					<div class="features">
-						<h3 class="features__title title">Особенности</h3>
-
-
-						<ul class="features__list">
-
-							<li class="features__item">
-
-								<div class="features__picture">
-									<img src="img/flower.png" alt="flower" class="features__picture__icon">
-								</div>
-
-								<div class="features__description">
-									<h4 class="features__description__subtitle">УНИКАЛЬНОСТЬ</h4>
-									<p class="features__description__text">Создан для вашего <br> комфортного отдыха</p>
-									<ul>
-										<li class="features__description__list">Кофе/чай</li>
-										<li class="features__description__list">Шкаф (5 кг)</li>
-										<li class="features__description__list">Рабочее место</li>
-									</ul>
-								</div>
-
+					<!-- Хлебные крошки начало -->
+					<nav class="breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="index.html" class="breadcrumbs__link">Главная</a>
 							</li>
-							
-							<li class="features__item">
+							<li class="breadcrumbs__item">
+								<a href="#" class="breadcrumbs__link breadcrumbs__link--unactive">Тарифы</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- Хлебные крошки конец -->
+					<!-- Секция Тарифы начало -->
+					<section class="price">
+						<h3 class="price__title title">Тарифы</h3>
 
-									<div class="features__picture">
-										<img src="img/star.png" alt="star" class="features__picture__icon">
-									</div>
-	
-									<div class="features__description">
-										<h4 class="features__description__subtitle">ПРЕМИУМ-КЛАСС</h4>
-										<p class="features__description__text">Для любителей <br> хороших впечатлений</p>
-										<ul>	
-											<li class="features__description__list">Обед+кофе</li>
-											<li class="features__description__list">Шкаф (10 кг)</li>
-											<li class="features__description__list">Детское кресло</li>
-										</ul>
-									</div>
-	
-								</li>
+						<ul class="price__list">
+							<li class="price__item">
+
+								<div class="picture-block picture-block__one"><!--задний фон --> 
+									<span class="price-block__name">«ОДИН»</span>
+								</div>
+
+								<span class="price__item__subtitle">800 руб/мес<br> или 100 руб/сутки</span>
+								<span class="price__item__text">Оплачивается рабочее место на<br> 1 человека. Есть возможность<br> оплаты с привязкой к<br> определенному физическому<br> месту. При оплате за год, скидка<br>30%.</span>
 								
-							<li class="features__item">
-
-									<div class="features__picture">
-										<img src="img/palette.png" alt="palette" class="features__picture__icon">
-									</div>
-	
-									<div class="features__description">
-										<h4 class="features__description__subtitle">ЛАКШЕРИ-СТУЛЬЯ</h4>
-										<p class="features__description__text">Всё самое лучшее <br> и незабываемое</p>
-									<ul>
-										<li class="features__description__list">Джакузи</li>
-										<li class="features__description__list">Шкаф (15 кг)</li>
-										<li class="features__description__list">Табуретка</li>
-									</ul>
-									</div>
-	
 							</li>
 
-						</ul>
-					</div>
-				
-
-
-					<!-- Лента новостей начало -->
-					<div class="news">
-						<h3 class="news__title title">Последние новости</h3>
-						<ul class="news__list">
-
-							<li class="news__item">
-								<img src="img/news_picture_one.png" alt="black_hole" class="news__picture">
-								<div class="news__desc">
-									<div class="news__date">12.10.2016</div>
-									<h3 class="news__subtitle">Чёрная дыра скидок!</h3>
-									<p class="news__text">Ключевым технологическим партнером GrowUp является<br>  дата-центр Миран,расположенный всего лишь в 500 метрах от здания,<br>  а значит,  скорость интернета будет стабильной в любое время суток. <br> Коворкинг работает в формате 24/7.Используйте шкаф для хранения <br> личных вещей.</p>
+							<li class="price__item">
+								<div class="picture-block picture-block__three"><!--задний фон --> 
+									<span class="price-block__name">«ТРОЕ»</span>
 								</div>
+								<span class="price__item__subtitle">1 500 руб/мес <br>или 200 руб/сутки</span>
+								<span class="price__item__text">Оплачивается стол на 3 рабочих<br> места. При этом можно ими<br> пользоваться как одновременно,<br> так и поочередно. Можно<br> пользоваться офисной техникой и<br> выделенным шкафом для<br> документов.</span>
 							</li>
 
-							<li class="news__item">
-							<img src="img/news_picture_two.png" alt="smoke" class="news__picture">
-							<div class="news__desc">
-								<div class="news__date">01.02.2016</div>
-								<h3 class="news__subtitle">Заражай друзей, получай призы!</h3>
-								<p class="news__text">Быть частью сообщества сильных, грамотных и увлеченных<br>  своим делом профессионалов - вдохновляет выходить на новые<br> уровни развития.Регулярно в коворкинге проводятся лекции,<br> мастер-классы, встречи с инвесторами или менторами для резидентов.</p>
-							</div>
+							<li class="price__item">
+								<div class="picture-block picture-block__ten-ten"><!--задний фон --> 
+									<span class="price-block__name">«10-10»</span>
+								</div>
+								<span class="price__item__subtitle">10 000 руб/мес</span>
+								<span class="price__item__text">Оплачивается 10 рабочих мест на<br> любые 10 дней месяца. Отлично<br> подходит для периодической<br> работы команды сотрудников без<br> строгой привязки к рабочему<br> месту. При оплате на год вперед<br> скидка 25%</span>
+							</li>
+		
+							<li class="price__item">
+								<div class="picture-block picture-block__vip-on-one"><!--задний фон --> 
+									<span class="price-block__name"><span class="price-block__name__vip">VIP</span>«БЕЗЛИМИТ<br> НА ОДНОГО»</span>
+								</div>
+								<span class="price__item__subtitle">2 500 руб/мес</span>
+								<span class="price__item__text">В стоимость включена не только<br> оплата рабочего места, но и<br> пользование копировальной<br> техникой, бесплатный кофе или чай<br> в течение дня, возможность<br> использования зала для<br> переговоров при предварительном<br> бронировании 1 раз в месяц.</span>
 							</li>
 
-							<li class="news__item">
-							<img src="img/news_picture_three.png" alt="work_place" class="news__picture">
-							<div class="news__desc">
-								<div class="news__date">22.12.2015</div>
-								<h3 class="news__subtitle">Новое рабочее место для бизнесменов</h3>
-								<p class="news__text">Для резидентов коворкинга оборудована не только рабочая зона,<br> но и зона отдыха. Она включает в себя: кухонную зону и зону релакса.<br>
-								Каждый резидент может беспрепятственно пользоваться кухонным<br> оборудованием: микроволновкой, чайником, кофе машиной, посудой.</p>
-							</div>
+							<li class="price__item">
+								<div class="picture-block picture-block__vip-all-on"><!--задний фон --> 
+									<span class="price-block__name"><span class="price-block__name__vip">VIP</span>«ВСЕ<br> ВКЛЮЧЕНО»</span>
+								</div>
+								<span class="price__item__subtitle">Цена рассчитывается<br> индивидуально</span>
+								<span class="price__item__text">Оплачивается необходимое число<br> рабочих мест с привязкой к<br> фактическому местонахождению. <br>В стоимость включены рабочие<br> столы, мебель для хранения<br> документов, отдельный принтер<br> и копировальный автомат.</span>
 							</li>
+
+							<li class="price__item">
+								<div class="picture-block picture-block__speak"><!--задний фон --> 
+									<span class="price-block__name">«ПЕРЕГОВОРЫ»</span>
+								</div>
+								<span class="price__item__subtitle">2 500 руб/час — </span>
+								<span class="price__item__text">Аренда среднего зала. Есть<br> возможность раннего<br> бронирования конференц-залов<br> со скидкой до 30% при полной<br> предоплате.</span>
+							</li>
+
 						</ul>
-					</div>
-				<!-- Лента новостей конец -->
+					</section>
 
-					<div class="pagination">
-             			<div class="pagination__display">Страница 1 из 7</div>
+					
+					<section class="partners">
+						<h3 class="partners__title title">Партнёры</h3>
 
-              			<div class="pagination__controlls">
-               				<a href="#" class="pagination__prev"><</a>
+						<ul class="partners__list">
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-vinter.png" class="partners__item__site__logo" alt="logo-vinter"></a></li>
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-drop.png" class="partners__item__site__logo" alt="logo-drop"></a></li>
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-anna.png" class="partners__item__site__logo" alt="logo-anna"></a></li>
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-tishkin.png" class="partners__item__site__logo" alt="logo-tishkin"></a></li>
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-pufok.png" class="partners__item__site__logo" alt="logo-pufok"></a></li>
+							<li class="partners__item"> <a href="#" class="partners__item__site"> <img src="img/logo-avantaj.png" class="partners__item__site__logo" alt="logo-avantaj"></a></li>
+						</ul>
 
-               				<ul class="pagination__pages-item">
-                  				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">1</a></li>
-
-                  				<li class="pagination__pages-item">
-                    				<a href="#" class="pagination__pages-link">2</a>
-                  				</li>
-
-                  				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">3</a></li>
-
-                  				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">4</a></li>
-
-                 				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">5</a></li>
-
-                  				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">6</a></li>
-
-                  				<li class="pagination__pages-item"><a href="#" class="pagination__pages-link">7</a></li>
-                			</ul>
-                
-                			<a href="#" class="pagination__next">></a>
-              			</div>	 
+					</section>
 
 				</div>
 			</div>

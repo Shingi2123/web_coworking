@@ -1,0 +1,102 @@
+.price__list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.price__item{
+    list-style: none;
+    text-align: center;
+    margin-right: 55px;
+    margin-bottom: 48px;
+}
+.picture-block{
+    border-radius: 3px;
+    display: flex;
+    width: 250px;
+    height: 153px;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:#5dd1f8;
+    font-family: 'Gotham Pro';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+.price__item:nth-child(3){
+    margin-right: 0;
+}
+.price__item:last-child{
+    margin-right: 0;
+}
+.price__item__subtitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gotham Pro';
+}
+.price__item__text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gotham Pro';
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 14px;
+    color:#221f1f;
+}
+.price-block__name{
+    z-index: 1;
+    line-height: 34px;
+}
+.price-block__name__vip{
+    justify-content: center;
+    display: flex;
+    color:#ec1e79;
+}
+
+.picture-block {
+    position: relative;
+}
+.picture-block::before {
+    content: ' ';
+    border-radius: inherit;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(39, 39, 62, 0.85);
+}
+.picture-block__one{
+    background-image: url('../../img/price_one.png');
+    background-position: -12px -19px;
+}
+.picture-block__three{
+    background-image: url('../../img/price_three.png');
+    background-position: center;
+    background-position: 50% -84%;
+}
+.picture-block__ten-ten{
+    background-image: url('../../img/price_ten-ten.png');
+    background-size: 105%;
+    background-position: 50% 75%;
+}
+.picture-block__vip-on-one{
+    background-image: url('../../img/price_vip-on-one.png');
+    background-position: 50% 30%;
+}
+.picture-block__vip-all-on  {
+    background-image: url('../../img/price_vip-all-on.png');
+    background-position: 52% 22%;
+    background-size: 120%;
+}
+.picture-block__speak{
+    background-image: url('../../img/price_speak.png');
+    background-position: 25% 44%;
+}
+.price__title, .partners__title{
+    margin-bottom: 42px;
+}

@@ -1,0 +1,27 @@
+.partners__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 93px;
+}
+.partners__item{
+    width: 33.333%; 
+}
+.partners__item:nth-child(3){
+    margin-right: 0;
+    margin-bottom: 52px;
+}
+.partners__item__site__logo{
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+.partners__item__site__logo:hover{
+    filter: none;
+    opacity: 1;
+}
+.partners__item:last-child{
+    display: flex;
+    padding-left: 40px;
+}
