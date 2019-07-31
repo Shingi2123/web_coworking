@@ -65,7 +65,7 @@
     color:#fff;
     border-radius: 4px;
   }
-  .pagination__pages-link--active, .pagination__pages-link--active:hover{
+  .pagination__pages-link--active,.pagination__pages-link--active:hover{
     background-color: #27273e;
     color:#ec1e79;
     border-radius: 4px;
