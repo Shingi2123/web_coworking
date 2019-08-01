@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 55px;
   }
   .pagination.comments{
     margin-left: -115px;
