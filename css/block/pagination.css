@@ -31,8 +31,8 @@
   .pagination__prev{
     margin-right: 15px;
   }
-  .pagination__next{
-    margin-left: 15px;
+  .pagination__pages-item:last-child{
+    margin-right: 15px;
   }
   .pagination__prev, .pagination__next{
     display: inline-block;
