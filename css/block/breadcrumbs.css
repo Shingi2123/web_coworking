@@ -1,0 +1,28 @@
+.breadcrumbs{
+    font-size: 14px;
+    font-family: "Gotham Pro";
+    font-weight: 300px;
+    font-style: italic;
+    margin-bottom: 28px;
+}
+
+ul>li{
+    text-decoration: none;
+}
+.breadcrumbs__item , .breadcrumbs__link{
+    display: inline-flex;   
+}
+.breadcrumbs__item::after{
+    content: "/";
+    padding-left: 4px;
+} 
+.breadcrumbs__item:last-child::after{
+    display: none;
+}
+.breadcrumbs__link{
+    color: rgba(236, 30, 121, 0.8);
+}
+.breadcrumbs__link--unactive{
+    color: rgba(34, 31, 31, 0.8);
+    text-decoration: none;
+}

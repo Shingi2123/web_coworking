@@ -1,0 +1,76 @@
+.sidebar{
+  width: 200px;
+  /* display: inline-block; */
+  /* vertical-align: top; */
+}
+.menu__text{
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+    color: #ec1e79;
+    transition-duration: 1.0s color;
+  }
+  .menu__list{
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  .menu__text:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 18px;
+    background: no-repeat center center;
+    margin-right: 20px;
+  }
+  .menu__text--icon--triangle:before{
+    transition-duration: .5s;
+    background-image: url(../../img/icon_triangle.png);
+  }
+  .menu__text--icon--triangle:hover:before{
+    transition-duration: .5s;
+    background-image: url(../../img/icon_triangle-hover.png);
+  }
+  .menu__text--icon--star:before{
+    transition-duration: .5s;
+    background-image: url(../../img/feed_icon.png);
+  }
+  .menu__text--icon--star:hover:before{
+    transition-duration: .5s;
+    background-image: url(../../img/feed_icon-hover.png);
+  }
+  .menu__text--icon--wallet:hover:before{
+    transition-duration: .5s;
+    background-image: url(../../img/icon_wallet-hover.png);
+  }
+  .menu__text--icon--wallet:before{
+    transition-duration: .5s;
+    background-image: url(../../img/icon_wallet.png);
+  }
+  .menu__text:hover{
+    text-decoration: underline;
+    color: #000000;
+    transition-duration: .5s;
+  }
+  .menu__text--active{
+    text-decoration: underline;
+    color: #000;
+  }
+  .menu__text--icon--triangle--active:before{
+    background-image: url(../../img/icon_triangle-hover.png);
+  }
+  .menu__text--icon--star--active:before{
+    background-image: url(../../img/feed_icon-hover.png);
+  }
+  .menu__text--icon--wallet--active:before{
+    background-image: url(../../img/icon_wallet-hover.png);
+  }
+  .menu__item{
+    margin-bottom: 30px;
+  }
+  .menu__item:last-child{
+    margin-bottom: 0px;
+  }
