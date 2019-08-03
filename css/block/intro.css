@@ -8,6 +8,7 @@
     background-position-y: 60%;
 }
 .intro-block{
+    transform: scale(0);
     position: relative;
     z-index: 5;
     display:flex;
@@ -25,6 +26,7 @@
     border: 3px solid #ec1e79;
     padding: 16px 20px;
     cursor: pointer;
+    transition: 0.4s;
 }
 .intro-block__link__btn:hover{
     font-family: 'Gotham Pro';
@@ -37,9 +39,9 @@
     border: 3px solid #ec1e79;
     padding: 16px 20px;
     cursor: pointer;
-    transition: 0.4s;
+    
 }
-.intro-block__intro-logo{
+.intro-block__intro-logo{   
     margin-bottom: 29px;
 }
 .wrapper-intro__bcg-color::before {
@@ -51,4 +53,24 @@ top: 0;
 bottom: 0;
 background-color: rgba(236, 30, 121, 0.15);
 z-index: 4;
+}
+.intro-block{  
+    animation: logo_animation .3s 1s forwards;
+}
+@keyframes logo_animation{
+    0% {
+        transform: scale(0) rotate(5deg);
+    }
+
+    60%{
+        transform: rotate(-5deg);
+    }
+
+    80%{
+        transform: rotate(10deg);
+    }
+
+    100%{
+        transform: scale(1);
+    }
 }
