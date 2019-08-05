@@ -14,7 +14,6 @@
     font-size: 14px;
     color:#656464;
     margin-right: 20px;
-  
   }
   .pagination__controlls{
     display: flex;
@@ -58,14 +57,19 @@
     width:25px;
     height: 25px;
     color:#221f1f;
+    transition: background-color 4s;
+    transition: color 4s;
   }  
   .pagination__pages-link:hover{
-    background-color: #27273e;
-    color:#fff;
-    border-radius: 4px;
+    color:#ec1e79;
   }
   .pagination__pages-link--active,.pagination__pages-link--active:hover{
     background-color: #27273e;
     color:#ec1e79;
     border-radius: 4px;
+  }
+
+  /* New style */
+  .pagination__next{
+    opacity: 1;
   }

@@ -20,7 +20,30 @@
     filter: none;
     opacity: 1;
 }
-.partners__item:last-child{
+.partners__list{
     display: flex;
-    padding-left: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+.partners__item{
+    margin-bottom: 45px;
+    width:auto;
+}
+.partners__item:last-child{
+    margin-bottom: 0;
+}
+.partners{
+    text-align: center;
+    margin-left: 21px;
+    padding: 27px 63px 36px 68px;
+    border: 1px solid #e8e9ed;
+    margin-bottom: 29px;
+}
+.partners__title{
+    margin-bottom: 51px;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: bold;
+    color:inherit; 
+    text-transform: uppercase;   
 }

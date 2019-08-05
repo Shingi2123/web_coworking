@@ -1,7 +1,5 @@
 .sidebar{
-  width: 200px;
-  /* display: inline-block; */
-  /* vertical-align: top; */
+width:auto;
 }
 .menu__text{
     font-family: "Gotham Pro", sans-serif;
@@ -16,7 +14,6 @@
     padding-left: 20px;
     list-style: none;
   }
-  
   .menu__text:before{
     content: "";
     display: inline-block;
@@ -74,3 +71,29 @@
   .menu__item:last-child{
     margin-bottom: 0px;
   }
+  /* New style */
+.sidebar-tariff{
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.features__top{
+  padding: 30px 34px 31px 45px;
+  text-align: center;
+  border: 1px solid #e8e9ed;
+  margin-bottom: 30px;
+}
+.features__top__title{
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+  color:#221f1f;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+.partners--vertical{
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__patners{
+  margin-right: 21px;
+}
