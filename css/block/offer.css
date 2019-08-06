@@ -1,22 +1,24 @@
 .offer{
-    min-width: 1043px;
-    min-height: 174px;
     background-color:#27273e;
     background-image: url("../../img/pattern.png");
     background-repeat: no-repeat;
     background-position: center;
-
     font-family: "Gotham Pro";
     font-size: 18px;
     line-height: 30px;
     font-weight: 300px;
     color:#ffffff;
+    text-align: center;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 57px;
+    padding: 30px 11px 33px 11px;
 }
 .offer__text__discount{
     color:#ec1e79;
     font-weight: bold;
+}
+/*New style*/
+.offer{
+    margin-bottom: 29px;
 }

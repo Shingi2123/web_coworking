@@ -11,7 +11,6 @@ width:auto;
     transition-duration: 1.0s color;
   }
   .menu__list{
-    padding-left: 20px;
     list-style: none;
   }
   .menu__text:before{
@@ -96,4 +95,9 @@ width:auto;
 }
 .sidebar__patners{
   margin-right: 21px;
+}
+.sidebar{
+  width: 25%;
+  margin-left: 22px;
+  margin-right: 24px;
 }

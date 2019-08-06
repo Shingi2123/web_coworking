@@ -11,7 +11,7 @@
   /* New style */
   .menu--horizontal{
     display: flex;
-    align-items: center;
+    align-items: center; 
   }
   .menu--horizontal>.menu__list{
     display: flex;
@@ -24,3 +24,6 @@
 .menu__item:last-child{
     margin-right: 0;
   }
+.header-workadium .menu--horizontal{
+  margin-bottom: 0;
+}
