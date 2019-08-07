@@ -14,12 +14,10 @@
     font-size: 14px;
     font-weight: bold; 
   }
-  .contact-information__schedule-work{
-    transition: color 2s;
-  }
-  .schedule-work_link{
+  .contact-information__schedule-work_link{
+    transition: 0.7s;
     color:#ec1e79;
   }
-  .schedule-work_link:hover{
+  .contact-information__schedule-work_link:hover{
     color:#7faad4;
   }
