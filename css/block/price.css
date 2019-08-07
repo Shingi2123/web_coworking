@@ -24,9 +24,6 @@
     font-weight: bold;
     margin-bottom: 26px;
 }
-.price__item:nth-child(3){
-    margin-right: 0;
-}
 .price__item:last-child{
     margin-right: 0;
 }
@@ -102,4 +99,11 @@
 }
 .maincontent-price{
     margin-bottom: 93px;
+}
+/* New style */
+.menu--horizontal{
+    margin-bottom: 32px;
+}
+.header-price{
+    margin-bottom: 35px;
 }

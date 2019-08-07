@@ -5,8 +5,7 @@
   }
   .news__picture{
     border-radius: 50%;
-    /* display: inline-block; */
-    width: 160px;
+    width: auto;
     margin-right: 21px;
   }
   .news__item{
@@ -33,7 +32,6 @@
   }
   .news__desc{
     min-width: 400px;
-    /* display: inline-block; */
   }
   .news__subtitle{
     line-height: 1.42;
