@@ -9,12 +9,10 @@
     font-size: 21px;
     font-weight: bold;
   }
-  .contact-information__schedule-work{
+  .contact-information__schedule-work_link{
+    margin-bottom: 10px;
     font-family:"Open Sans";
     font-size: 14px;
-    font-weight: bold; 
-  }
-  .contact-information__schedule-work_link{
     transition: 0.7s;
     color:#ec1e79;
   }
