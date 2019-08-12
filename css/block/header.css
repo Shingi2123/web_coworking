@@ -17,8 +17,8 @@
     display: flex;
     flex-direction: row;
   }
-.menu--horizontal .menu__item{
-    margin-right: 96px;
+  .menu--horizontal .menu__item{
+    margin-right: 90px;
     margin-bottom: 0;
   }
 .menu__item:last-child{

@@ -8,7 +8,7 @@ width:auto;
     letter-spacing: 1.2px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #ec1e79;
+    color: #fff;
     transition: 0.8s color;
   }
   .menu__list{
@@ -18,46 +18,10 @@ width:auto;
     content: "";
     display: inline-block;
     vertical-align: middle;
-    width: 24px;
-    height: 18px;
-    background: no-repeat center center;
-    margin-right: 20px;
+    margin-right: 17px;
+    background-image: url(../../img/icons/sprite-icon-menu.png);
+    background-repeat: no-repeat;
     transition: 0.8s;
-  }
-  .menu__text--icon--triangle:before{
-    background-image: url(../../img/icon_triangle.png);
-  }
-  .menu__text--icon--triangle:hover:before{
-    background-image: url(../../img/icon_triangle-hover.png);
-  }
-  .menu__text--icon--star:before{
-    background-image: url(../../img/feed_icon.png);
-  }
-  .menu__text--icon--star:hover:before{
-    background-image: url(../../img/feed_icon-hover.png);
-  }
-  .menu__text--icon--wallet:hover:before{
-    background-image: url(../../img/icon_wallet-hover.png);
-  }
-  .menu__text--icon--wallet:before{
-    background-image: url(../../img/icon_wallet.png);
-  }
-  .menu__text:hover{
-    text-decoration: none;
-    color: #000000;
-  }
-  .menu__text--active{
-    text-decoration: none;
-    color: #000;
-  }
-  .menu__text--icon--triangle--active:before{
-    background-image: url(../../img/icon_triangle-hover.png);
-  }
-  .menu__text--icon--star--active:before{
-    background-image: url(../../img/feed_icon-hover.png);
-  }
-  .menu__text--icon--wallet--active:before{
-    background-image: url(../../img/icon_wallet-hover.png);
   }
   .menu__item{
     margin-bottom: 30px;
@@ -95,4 +59,151 @@ width:auto;
   width: 25%;
   margin-left: 22px;
   margin-right: 24px;
+}
+.menu-workadium .menu__text:hover{
+  text-decoration: none;
+  color: #ec1e79;
+}
+.menu-workadium .menu__text--icon--triangle::before{
+  width: 17px;
+  height: 15px;
+  background-position: -94px 0;
+}
+.menu-workadium .menu__text--icon--triangle:hover:before{
+  width: 17px;
+  height: 15px;
+  background-position: -60px 0;
+}
+.menu-workadium .menu__text--icon--star:before{
+  width: 20px;
+  height: 18px;
+  background-position: -40px 0;
+}
+.menu-workadium .menu__text--icon--star:hover:before{
+  width: 20px;
+  height: 18px;
+  background-position: -20px 0;
+}
+.menu-workadium .menu__text--icon--wallet:before{
+  width: 19px;
+  height: 16px;
+  background-position: -149px 0;
+}
+.menu-workadium .menu__text--icon--wallet:hover:before{
+  width: 19px;
+  height: 16px;
+  background-position: -130px 0;
+}
+.menu-workadium .menu__text--active{
+  text-decoration: none;
+  color: #ec1e79;
+}
+.menu-workadium .menu__text--icon--triangle--active:before{
+  width: 17px;
+  height: 15px;
+  background-position: -77px 0;
+}
+.menu-workadium .menu__text--icon--star--active:before{
+  width: 20px;
+  height: 18px;
+  background-position: -20px 0;
+}
+.menu-workadium .menu__text--icon--wallet--active:before{
+  width: 19px;
+  height: 16px;
+  background-position: -130px 0;
+}
+/* Вторая стр Отзывы */
+.menu-reviews .menu__text{
+  color: #ec1e79;
+}
+.menu-reviews .menu__text:hover{
+  text-decoration: none;
+  color: #221f1f;
+}
+.menu-reviews .menu__text--icon--triangle::before{
+  width: 17px;
+  height: 15px;
+  background-position: -77px 0;
+}
+.menu-reviews .menu__text--icon--triangle:hover:before{
+  width: 17px;
+  height: 15px;
+  background-position: -60px 0;
+}
+.menu-reviews .menu__text--icon--star::before{
+  width: 20px;
+  height: 18px;
+  background-position: -20px 0;
+}
+.menu-reviews .menu__text--icon--star:hover:before{
+  width: 20px;
+  height: 18px;
+  background-position: 0 0;
+}
+.menu-reviews .menu__text--icon--wallet:before{
+  width: 19px;
+  height: 16px;
+  background-position: -130px 0;
+}
+.menu-reviews .menu__text--icon--wallet:hover:before{
+  width: 19px;
+  height: 16px;
+  background-position: -111px 0;
+}
+.menu-reviews .menu__text--active{
+  text-decoration: none;
+  color: #221f1f;
+}
+.menu-reviews .menu__text--icon--star--active:before{
+  width: 20px;
+  height: 18px;
+  background-position: 0 0;
+}
+/* Треттся стр тарифы  */
+.menu-price .menu__text{
+  color: #ec1e79;
+}
+.menu-price .menu__text:hover{
+  text-decoration: none;
+  color: #221f1f;
+}
+.menu-price .menu__text--icon--triangle::before{
+  width: 17px;
+  height: 15px;
+  background-position: -77px 0;
+}
+.menu-price .menu__text--icon--triangle:hover:before{
+  width: 17px;
+  height: 15px;
+  background-position: -60px 0;
+}
+.menu-price .menu__text--icon--star::before{
+  width: 20px;
+  height: 18px;
+  background-position: -20px 0;
+}
+.menu-price .menu__text--icon--star:hover:before{
+  width: 20px;
+  height: 18px;
+  background-position: 0 0;
+}
+.menu-price .menu__text--icon--wallet:before{
+  width: 19px;
+  height: 16px;
+  background-position: -130px 0;
+}
+.menu-price .menu__text--icon--wallet:hover:before{
+  width: 19px;
+  height: 16px;
+  background-position: -111px 0;
+}
+.menu-price .menu__text--active{
+  text-decoration: none;
+  color: #221f1f;
+}
+.menu-price .menu__text--icon--wallet--active:before{
+  width: 19px;
+  height: 16px;
+  background-position: -111px 0;
 }
